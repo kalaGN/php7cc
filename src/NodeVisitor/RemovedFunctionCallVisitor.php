@@ -136,6 +136,41 @@ class RemovedFunctionCallVisitor extends AbstractVisitor
         'mssql_result',
         'mssql_rows_affected',
         'mssql_select_db',
+
+        //7.0-7.1
+        'mb_ereg_replace',
+        'mb_eregi_replace',
+
+        //7.1-7.2
+        'png2wbmp',
+        'png2wbmp',
+        '__autoload',
+        'create_function',
+        'gmp_random',
+        'each',//
+        'assert',//string
+        'read_exif_data',
+
+        //7.2-7.3
+        'fgetss',
+
+        'image2wbmp',
+
+        'mbregex_encoding',
+        'mbereg',
+        'mberegi',
+        'mbereg_replace',
+        'mberegi_replace',
+        'mbsplit',
+        'mbereg_match',
+        'mbereg_search',
+        'mbereg_search_pos',
+        'mbereg_search_regs',
+        'mbereg_search_init',
+        'mbereg_search_getregs',
+        'mbereg_search_getpos',
+        'mbereg_search_setpos',
+
     );
 
     /**
