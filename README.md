@@ -39,7 +39,7 @@ You can download a phar package for any stable version from the Github
 #### Composer (globally)
 Make sure you have composer installed. Then execute the following command:
 ```bash
-composer global require sstalle/php7cc
+composer global require afei/php7cc
 ```
 It is also recommended to add global Composer binaries directory to your ```PATH``` environment
 variable. The location of this directory depends on the operating system you use
@@ -54,7 +54,7 @@ This makes it possible to run php7cc by entering just the executable name.
 Make sure you have composer installed. Then execute the following command from your project
 directory:
 ```bash
-composer require sstalle/php7cc --dev
+composer require afei/php7cc --dev
 ```
 
 #### Docker image
@@ -178,5 +178,5 @@ php -d memory_limit=-1 php7cc.php /path/to/my/directory
 #### Contributing
 Please read the [contributing guidelines](CONTRIBUTING.md).
 #### Credits
-[The list of contributors](https://github.com/sstalle/php7cc/graphs/contributors) is available on the corresponding
+[The list of contributors](https://github.com/afei/php7cc/graphs/contributors) is available on the corresponding
  Github page.
