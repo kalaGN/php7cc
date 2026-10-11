@@ -1,5 +1,7 @@
 # PHP 7 Compatibility Checker(php7cc)
 
+简体中文说明：[README.zh-CN.md](README.zh-CN.md)
+
 #### Introduction
 php7cc is a command line tool designed to make migration from PHP 5.3-5.6 to PHP 7 easier.
 It searches for potentially troublesome statements in existing code and generates reports containing
